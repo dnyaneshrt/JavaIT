@@ -1,6 +1,5 @@
 package array_programs;
 
-
 import java.util.Scanner;
 
 //array is collection of same type of data elements.
@@ -36,7 +35,6 @@ public class ArrayTest1 {
         {
             System.out.println(name);
         }
-
 
     }
 }
