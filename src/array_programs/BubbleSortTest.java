@@ -52,7 +52,6 @@ public class BubbleSortTest {
         }
 
     }
-
     private static void sortAsc(int[] nums) {
 
         for(int i=0;i< nums.length;i++)

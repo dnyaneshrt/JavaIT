@@ -26,11 +26,13 @@ public class SortTest {
                 System.out.println(nums[i]);
             }
             System.out.println("array values after sorting in ascending order");
-            Arrays.sort(nums);//sorting array in asc
+//            Arrays.sort(nums);//sorting array in asc
+             Collections.sort(Arrays.asList(nums));
                 for(int i=0;i< nums.length;i++)
                 {
                     System.out.println(nums[i]);
                 }
+
 
          Arrays.sort(nums,Collections.reverseOrder());//sorting arrray in desc
         System.out.println("array values after sorting in Descdeing order");
