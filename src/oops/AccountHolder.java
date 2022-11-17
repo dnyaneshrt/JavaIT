@@ -8,10 +8,13 @@ package oops;
 //if an interface is having only one abstract method is called as functional interface.
 //functional interfaces we can implement by using lamda expressions. (java 8 faetures.)
 //lamda expression is java 8 feature to reduce length of code and provide functional programmings
+//bydefault interface variables are constants/public static final.
+//bydefault interface methods are public abstract
 interface Bank
 {
   void provideLoanInfo();
 }
+
 class Axis implements Bank
 {
     @Override
