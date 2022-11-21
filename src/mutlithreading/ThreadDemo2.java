@@ -9,9 +9,7 @@ package mutlithreading;
             try { Thread.sleep(1000);  } catch (InterruptedException e) { throw new RuntimeException(e);}
         }
     }
-
 }
-
 class Android extends Thread
 {
     public void run()
