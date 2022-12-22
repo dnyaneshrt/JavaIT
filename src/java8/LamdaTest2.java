@@ -1,6 +1,5 @@
 package java8;
 
-
 interface  LTest
 {
 //    int addNumbers(int a, int b, int c);
